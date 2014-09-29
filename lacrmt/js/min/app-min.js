@@ -1,0 +1,1 @@
+$(document).foundation(),$(document).ready(function(){$("#js-toggle-filters").click(function(){$("#filters").slideToggle()})});

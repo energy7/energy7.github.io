@@ -1,0 +1,224 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acton & Agua Dolce Dashboard | Sahana LA Community Resilience Mapping Tool</title>
+  
+  <!-- webfonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!-- icon fonts -->
+  <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css" />
+  
+  <!-- compiled stylesheet -->
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+
+<body class="dashboard">
+
+
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="index.html">Sahana</a></h1>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+  
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="has-dropdown">
+          <a class="active" href="dashboard.html">Welcome, Julie!</a>
+          <ul class="dropdown">
+            <li><a href="maps.html#panel-yours">Your maps</a></li>
+            <li><a href="#">Admin users</a></li>
+            <li><a href="#">Edit profile</a></li>
+            <li><a href="#">Change password</a></li>
+            <li><a href="index.html">Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+  
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="has-dropdown">
+          <a href="#">Find</a>
+          <ul class="dropdown">
+            <li><a href="data.html">People</a></li>
+            <li><a href="data.html">Organizations</a></li>
+            <li><a href="data.html">Activities</a></li>
+            <li><a href="data.html">Points</a></li>
+            <li><a href="data.html">Routes</a></li>
+            <li><a href="data.html">Areas</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Add</a>
+          <ul class="dropdown">
+            <li><a href="add.html">Person</a></li>
+            <li><a href="add.html">Organization</a></li>
+            <li><a href="add.html">Activity</a></li>
+            <li><a href="add.html">Point</a></li>
+            <li><a href="add.html">Route</a></li>
+            <li><a href="add.html">Area</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Share</a>
+          <ul class="dropdown">
+            <li><a href="maps.html#panel-all">Maps</a></li>
+            <li><a href="#">Stories</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="map.html">Map</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+
+
+  <div class="row dashboard-maps">
+    <h2 class="row-title">Acton &amp; Agua Dolce Coalition</h3>
+    <h6 class="maps-title"><a href="maps.html#panel-yours">View as Grid</a> Your Maps <a href="maps.html#panel-all">View All Maps</a></h6>
+    <div class="large-8 large-offset-2 columns">
+      <ul class="orbit" data-orbit data-options="slide_number: false; timer: false;">
+        <li>
+          <img src="img/maps/acton-coalition.jpg" width="820" height="410" alt="Acton & Agua Docle Coalition" />
+          <div class="orbit-caption">Your Coalition</div>
+        </li>
+        <li class="active">
+          <img src="img/maps/partners.jpg" width="820" height="410" alt="Partner Organizations" />
+          <div class="orbit-caption">Partner Organizations</div>
+        </li>
+        <li class="active">
+          <img src="img/maps/outreach.jpg" width="820" height="410" alt="Outreach Plan" />
+          <div class="orbit-caption">Outreach Plan</div>
+        </li>
+        <li>
+          <img src="img/maps/communications.jpg" width="820" height="410" alt="CERT Training" />
+          <div class="orbit-caption">CERT Training</div>
+        </li>
+      </ul>
+      <a class="button alert make-map" href="map.html">Make a Map</a>
+    </div>
+  </div>
+
+  <div class="row dashboard-lists">
+
+    <div class="medium-12 large-4 columns dashboard-contacts">
+      <div class="inner">
+        <h6>Recent Contacts</h6>
+        <ul class="lined ellipsis">
+          <li><a href="#">Rachel Long <small class="location">Loma Linda University Department of Public Health</small></a></li>
+          <li><a href="#">Irene Lewis <small class="location">Salvation Army</small></a></li>
+          <li><a href="#">Dorothy O'Brien <small class="location">Department of Public Health</small></a></li>
+          <li><a href="#">Sue Perry <small class="location">US Geological Survey (USGS)</small></a></li>
+          <li><a href="#">Nicole Henderson <small class="location"></small></a></li>
+        </ul>        
+        <a class="button tiny" href="data.html">See all 88</a>
+      </div>
+    </div>
+
+    <div class="medium-12 large-4 columns dashboard-organizations">
+      <div class="inner">
+        <h6>Partner Organizations</h6>
+        <ul class="lined ellipsis">
+          <li><a href="#">Family Crisis Center</a></li>
+          <li><a href="#">American Red Cross</a></li>
+          <li><a href="#">801 Tower</a></li>
+          <li><a href="#">LA County Office of Education</a></li>
+          <li><a href="#">Acton Community Club</a></li>
+        </ul>        
+        <a class="button tiny" href="data.html">See all 12</a>
+      </div>
+    </div>
+
+    <div class="medium-12 large-4 columns dashboard-activities">
+      <div class="inner">
+        <h6>Latest Activities</h6>
+        <ul class="lined ellipsis">
+          <li><a href="#">Coalition Meeting <small class="location">Culver City, <time datetime="2014-10-27 19:00">Fri Oct 27</time></small></a></li>
+          <li><a href="#">Free Music Festival <small class="location">Huntington Park, <time datetime="2014-10-28 19:00">Sat Oct 28</time></small></a></li>
+          <li><a href="#">CERT Training &amp; Certification <small class="location">Watts, <time datetime="2014-10-29 19:00">Sun Oct 29</time></small></a></li>
+          <li><a href="#">Free Music Festival <small class="location">Huntington Park, <time datetime="2014-10-28 19:00">Sat Oct 28</time></small></a></li>
+          <li><a href="#">CERT Training &amp; Certification <small class="location">Watts, <time datetime="2014-10-29 19:00">Sun Oct 29</time></small></a></li>
+        </ul>        
+        <a class="button tiny" href="data.html">See all 154</a>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="row dashboard-stats">
+    <div class="medium-4 large-2 columns">
+      <h6 class="stat-title" data-tooltip aria-haspopup="true" class="has-tip" title="Track contacts and resources like medics">People</h6>
+      <p class="stat-number">25</p>
+      <a class="button tiny alert has-icon" href="add.html"><img src="img/icons/person.png" alt="person" width="20" height="20">Add</a>
+    </div>
+    <div class="medium-4 large-2 columns">
+      <h6 class="stat-title" data-tooltip aria-haspopup="true" class="has-tip" title="Map groups and places for partnership">Organizations</h6>
+      <p class="stat-number">12</p>
+      <a class="button tiny alert has-icon" href="add.html"><img src="img/icons/organization.png" alt="organization" width="20" height="20">Add</a>
+    </div>
+    <div class="medium-4 large-2 columns">
+      <h6 class="stat-title" data-tooltip aria-haspopup="true" class="has-tip" title="Post relevant trainings and gatherings">Activities</h6>
+      <p class="stat-number">35</p>
+      <a class="button tiny alert has-icon" href="add.html"><img src="img/icons/activity.png" alt="activity" width="20" height="20">Add</a>
+    </div>
+    <div class="medium-4 large-2 columns">
+      <h6 class="stat-title" data-tooltip aria-haspopup="true" class="has-tip" title="Mark important risks or resources like water">Points</h6>
+      <p class="stat-number">1768</p>
+      <a class="button tiny alert has-icon" href="add.html"><img src="img/icons/point.png" alt="point" width="20" height="20">Add</a>
+    </div>
+    <div class="medium-4 large-2 columns">
+      <h6 class="stat-title" data-tooltip aria-haspopup="true" class="has-tip" title="Draw paths of critical evacuation routes">Routes</h6>
+      <p class="stat-number">5</p>
+      <a class="button tiny alert has-icon" href="add.html"><img src="img/icons/route.png" alt="route" width="20" height="20">Add</a>
+    </div>
+    <div class="medium-4 large-2 columns">
+      <h6 class="stat-title" data-tooltip aria-haspopup="true" class="has-tip" title="Outline major zones or communities">Areas</h6>
+      <p class="stat-number">250</p>
+      <a class="button tiny alert has-icon" href="add.html"><img src="img/icons/area.png" alt="area" width="20" height="20">Add</a>
+    </div>
+  </div>
+
+
+  <div class="row sahana-help">
+    <div class="large-12 columns">
+      <h3 class="row-title">Need help? Sahana is here</h3>
+      <div class="row">
+        <div class="large-3 medium-6 columns">
+          <a href="#"><img src="img/help/thumb-tutorials.jpg" alt="Watch video tutorials" width="260" height="130"><figcaption>Watch video tutorials</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="#"><img src="img/help/thumb-manual.jpg" alt="Read the user manual" width="260" height="130"><figcaption>Read the user manual</figcaption></a>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <a href="mailto:help@sahanafoundation.org?subject=LA training request"><img src="img/help/thumb-training.jpg" alt="Schedule a WebEx training" width="260" height="130"><figcaption>Schedule a WebEx training</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <div class="help-links">
+            <a class="button" href="mailto:help@sahanafoundation.org?subject=LA resilience help" target="_blank"><i class="fi-mail"></i>help@sahanafoundation.org</a>
+            <a class="button" href="tel:+18005551212"><i class="fi-telephone"></i>+1 800 555 1212</a>
+            <figcaption>Contact us</figcaption>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+  
+  <footer class="row sahana-footer">
+    <p><img src="img/logos/sahana-sunflower.png" alt="Sahana Foundation" width="42" height="40"><a href="http://sahanafoundation.org/" target="_blank">Sahana</a> is proudly open source. <a href="https://github.com/flavour/eden" target="_blank">Check us out on Github!</a></p>
+  </footer>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

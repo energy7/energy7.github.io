@@ -1,0 +1,285 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acton & Agua Dolce Dashboard | Sahana LA Community Resilience Mapping Tool</title>
+  
+  <!-- webfonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!-- icon fonts -->
+  <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css" />
+  
+  <!-- compiled stylesheet -->
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+
+<body class="data">
+
+
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="index.html">Sahana</a></h1>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+  
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="has-dropdown">
+          <a href="dashboard.html">Welcome, Julie!</a>
+          <ul class="dropdown">
+            <li><a href="maps.html#panel-yours">Your maps</a></li>
+            <li><a href="#">Admin users</a></li>
+            <li><a href="#">Edit profile</a></li>
+            <li><a href="#">Change password</a></li>
+            <li><a href="index.html">Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+  
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="has-dropdown">
+          <a href="#">Find</a>
+          <ul class="dropdown">
+            <li><a href="data.html">People</a></li>
+            <li><a class="active" href="data.html">Organizations</a></li>
+            <li><a href="data.html">Activities</a></li>
+            <li><a href="data.html">Points</a></li>
+            <li><a href="data.html">Routes</a></li>
+            <li><a href="data.html">Areas</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Add</a>
+          <ul class="dropdown">
+            <li><a href="add.html">Person</a></li>
+            <li><a href="add.html">Organization</a></li>
+            <li><a href="add.html">Activity</a></li>
+            <li><a href="add.html">Point</a></li>
+            <li><a href="add.html">Route</a></li>
+            <li><a href="add.html">Area</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Share</a>
+          <ul class="dropdown">
+            <li><a href="maps.html#panel-all">Maps</a></li>
+            <li><a href="#">Stories</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="map.html">Map</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+
+
+  <header class="row data-header">
+  
+    <a class="button small alert has-icon right" href="add.html"><img src="img/icons/organization.png" alt="organization" width="20" height="20">Add organization</a>
+    <h1 class="row-title">Organizations</h1>
+    <p class="lede">Find partners in each key sector: 1) local leaders 2) cultural/faith 3) volunteer 4) government 5) business. Include schools, offices, parks, shops, and shelters. <a href="#">Edit</a></p>
+    
+    <dl class="tabs" data-tab>
+      <dd class="active"><a href="#panel1">Table</a></dd>
+      <dd><a href="#panel2">Map</a></dd>
+      <dd><a href="#panel3">Chart</a></dd>
+    </dl>
+    
+  </header>
+
+  <div class="row tabs-content">
+    <div class="content panel-table active" id="panel1">
+    
+      <div class="data-sort">
+        <div class="row">
+          <div class="large-4 columns">
+            <label class="subheader inline">Showing 1 to 25 of 8,536 organizations</label>
+          </div>
+          <div class="large-3 columns">
+            <label class="subheader">Show <select class="large-3" size="1" name="summary-2_length" aria-controls="summary-2"><option value="25">25</option><option value="50">50</option><option value="-1">All</option></select> entries</label>
+          </div>
+          <div class="large-3 columns">      
+            <div class="row collapse">
+              <div class="small-10 columns">
+                <input type="text" placeholder="Search">
+              </div>
+              <div class="small-2 columns">
+                <a href="#" class="button postfix"><i class="fi-magnifying-glass"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="large-2 columns right"><a class="button tiny right" id="js-toggle-filters">Filter</a></div>
+        </div>
+        
+        <div class="data-filter" id="filters" style="display:none;">
+          <form>
+            <div class="row">
+              <div class="large-3 columns">
+                <label>Coalition:</label><select><option value="5">Acton &amp; Agua Dulce</option><option value="2">Culver City</option><option value="4">Huntington Park</option><option value="8">La Crescenta-Montrose</option><option value="7">Pico-Union</option><option value="3">Pomona</option><option value="6">Watts</option><option value="1">Wilmington</option></select>
+              </div>
+              <div class="large-3 columns">
+                <label>Sector:</label><select><option value="4">Business</option><option value="1">Community Leadership</option><option value="9">Cultural / Faith Based Organization</option><option value="10">Emergency Management</option><option value="6">Government</option><option value="3">Housing / Shelter</option></select>
+              </div>
+              <div class="large-3 columns">
+                <label>Service:</label><select><option>Transportation</option></select>
+              </div>
+              <div class="large-3 columns">
+                <label><a class="button tiny secondary right">Clear</a></label>
+              </div>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+
+      
+      <table>
+        <thead>
+          <tr>
+            <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" aria-label=" "></th>
+            <th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Place Name: activate to sort column ascending">Name</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Type of Place: activate to sort column ascending">Type</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Organization: activate to sort column ascending">Organization</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Coalition: activate to sort column ascending">Coalition</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Address: activate to sort column ascending">Address</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="ZIP Code: activate to sort column ascending">ZIP</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Contact: activate to sort column ascending">Contact</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Phone: activate to sort column ascending">Phone</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">Email</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="summary-2" rowspan="1" colspan="1" aria-label="Comments: activate to sort column ascending">Comments</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td class="actions"><a db_id="20829" class="action-btn read" href="details.html" title="Open"><i class="fi-eye"></i></a></td>
+              <td class=" sorting_1">(Main Office - Lobby Drop)</td>
+              <td class="">Post Office Lobby</td>
+              <td class=""><a data-w2p_disable_with="default" href="details.html">US Postal Service (USPS)</a></td>
+              <td class="">Culver City</td>
+              <td class="">11111 Jefferson Blvd, 90230, Culver City</td>
+              <td class="">90230</td>
+              <td class="">-</td>
+              <td class="">-</td>
+              <td class="">-</td>
+              <td class="">-</td>
+            </tr>
+            <tr>
+              <td class="actions"><a db_id="11354" class="action-btn read" href="details.html" title="Open"><i class="fi-eye"></i></a></td>
+              <td class=" sorting_1">102nd St Elementary School</td>
+              <td class="">Public Elementary Schools</td>
+              <td class=""><a data-w2p_disable_with="default" href="details.html">LA County Office of Education</a></td>
+              <td class="">Watts</td>
+              <td class="">1963 E 103rd St, 90002, Watts</td>
+              <td class="">90002</td>
+              <td class="">-</td>
+              <td class="">Primary: 323-569 8141</td>
+              <td class="">-</td>
+              <td class="">-</td>
+            </tr>          
+            <tr>
+              <td class="actions"><a db_id="20829" class="action-btn read" href="details.html" title="Open"><i class="fi-eye"></i></a></td>
+              <td class=" sorting_1">(Main Office - Lobby Drop)</td>
+              <td class="">Post Office Lobby</td>
+              <td class=""><a data-w2p_disable_with="default" href="details.html">US Postal Service (USPS)</a></td>
+              <td class="">Culver City</td>
+              <td class="">11111 Jefferson Blvd, 90230, Culver City</td>
+              <td class="">90230</td>
+              <td class="">-</td>
+              <td class="">-</td>
+              <td class="">-</td>
+              <td class="">-</td>
+            </tr>
+            <tr>
+              <td class="actions"><a db_id="11354" class="action-btn read" href="details.html" title="Open"><i class="fi-eye"></i></a></td>
+              <td class=" sorting_1">102nd St Elementary School</td>
+              <td class="">Public Elementary Schools</td>
+              <td class=""><a data-w2p_disable_with="default" href="details.html">LA County Office of Education</a></td>
+              <td class="">Watts</td>
+              <td class="">1963 E 103rd St, 90002, Watts</td>
+              <td class="">90002</td>
+              <td class="">-</td>
+              <td class="">Primary: 323-569 8141</td>
+              <td class="">-</td>
+              <td class="">-</td>
+            </tr>          
+          </tbody>
+          
+        </thead>
+        
+      </table>
+      
+      <div class="row">
+        <ul class="pagination large-8 columns">
+          <li class="arrow unavailable"><a href="">&laquo;</a></li>
+          <li class="current"><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li class="unavailable"><a href="">&hellip;</a></li>
+          <li><a href="">12</a></li>
+          <li><a href="">13</a></li>
+          <li class="arrow"><a href="">&raquo;</a></li>
+        </ul>
+
+        <div class="large-4 columns right data-export"><a class="permalink" data-w2p_disable_with="default" href="/eden/org/organisation/summary">Permalink</a> | <span class="list_formats" id="summary-2_list_formats">Export as:<div class="export_xml" onclick="S3.dataTables.formatRequest('xml','summary-2','/eden/org/organisation?w=summary-2')" title="Export in XML format"></div><div class="export_xls" onclick="S3.dataTables.formatRequest('xls','summary-2','/eden/org/organisation?w=summary-2')" title="Export in XLS format"></div></span></div>
+        
+      </div>
+
+    </div>
+    
+    
+    <div class="content panel-map" id="panel2">
+      <p>MAP</p>
+    </div>
+    
+    
+    <div class="content panel-chart" id="panel3">
+      <img src="img/charts/chart-organizations.png" alt="chart-organizations" width="1055" height="391">
+    </div>
+    
+    
+  </div>
+    
+
+
+  <div class="row sahana-help">
+    <div class="large-12 columns">
+      <h3 class="row-title">Need help? Sahana is here</h3>
+      <div class="row">
+        <div class="large-3 medium-6 columns">
+          <a href="#"><img src="img/help/thumb-tutorials.jpg" alt="Watch video tutorials" width="260" height="130"><figcaption>Watch video tutorials</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="#"><img src="img/help/thumb-manual.jpg" alt="Read the user manual" width="260" height="130"><figcaption>Read the user manual</figcaption></a>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <a href="mailto:help@sahanafoundation.org?subject=LA training request"><img src="img/help/thumb-training.jpg" alt="Schedule a WebEx training" width="260" height="130"><figcaption>Schedule a WebEx training</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <div class="help-links">
+            <a class="button" href="mailto:help@sahanafoundation.org?subject=LA resilience help" target="_blank"><i class="fi-mail"></i>help@sahanafoundation.org</a>
+            <a class="button" href="tel:+18005551212"><i class="fi-telephone"></i>+1 800 555 1212</a>
+            <figcaption>Contact us</figcaption>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+  
+  <footer class="row sahana-footer">
+    <p><img src="img/logos/sahana-sunflower.png" alt="Sahana Foundation" width="42" height="40"><a href="http://sahanafoundation.org/" target="_blank">Sahana</a> is proudly open source. <a href="https://github.com/flavour/eden" target="_blank">Check us out on Github!</a></p>
+  </footer>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

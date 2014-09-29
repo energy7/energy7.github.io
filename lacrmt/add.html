@@ -1,0 +1,292 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add [Organization] | Sahana LA Community Resilience Mapping Tool</title>
+  
+  <!-- webfonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!-- icon fonts -->
+  <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css" />
+  
+  <!-- compiled stylesheet -->
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+
+<body class="add">
+
+
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="index.html">Sahana</a></h1>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+  
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="has-dropdown">
+          <a href="dashboard.html">Welcome, Julie!</a>
+          <ul class="dropdown">
+            <li><a href="maps.html#panel-yours">Your maps</a></li>
+            <li><a href="#">Admin users</a></li>
+            <li><a href="#">Edit profile</a></li>
+            <li><a href="#">Change password</a></li>
+            <li><a href="index.html">Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+  
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="has-dropdown">
+          <a href="#">Find</a>
+          <ul class="dropdown">
+            <li><a href="data.html">People</a></li>
+            <li><a href="data.html">Organizations</a></li>
+            <li><a href="data.html">Activities</a></li>
+            <li><a href="data.html">Points</a></li>
+            <li><a href="data.html">Routes</a></li>
+            <li><a href="data.html">Areas</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Add</a>
+          <ul class="dropdown">
+            <li><a href="add.html">Person</a></li>
+            <li><a class="active" href="add.html">Organization</a></li>
+            <li><a href="add.html">Activity</a></li>
+            <li><a href="add.html">Point</a></li>
+            <li><a href="add.html">Route</a></li>
+            <li><a href="add.html">Area</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Share</a>
+          <ul class="dropdown">
+            <li><a href="maps.html#panel-all">Maps</a></li>
+            <li><a href="#">Stories</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="map.html">Map</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+
+
+  <div class="row add-organization">
+    <label class="req-key right">* Required Fields</label>
+    <h1 class="row-title">Add Organization</h3>
+    
+    <form>
+      <div class="row">
+        <div class="small-12">
+        
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Name:<span class="req">*</span></label>
+            </div>
+            <div class="small-10 columns">
+              <input type="text" id="right-label" placeholder="Text">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Coalition:</label>
+            </div>
+            <div class="small-4 columns">
+              <select>
+                <option value="husker">Select</option>
+                <option value="starbuck">Starbuck</option>
+                <option value="hotdog">Hot Dog</option>
+                <option value="apollo">Apollo</option>
+              </select>
+              <small class="postscript"><a href="#">Add another</a></small>
+            </div>
+            <div class="small-4 columns">
+              <select>
+                <option value="husker">Status</option>
+                <option value="starbuck">Starbuck</option>
+                <option value="hotdog">Hot Dog</option>
+                <option value="apollo">Apollo</option>
+              </select>
+            </div>
+            <div class="small-2 columns">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Sectors:</label>
+            </div>
+            <div class="small-4 columns">
+              <select>
+                <option value="husker">Select</option>
+                <option value="starbuck">Starbuck</option>
+                <option value="hotdog">Hot Dog</option>
+                <option value="apollo">Apollo</option>
+              </select>
+            </div>
+            <div class="small-6 columns">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Services:</label>
+            </div>
+            <div class="small-4 columns">
+              <select>
+                <option value="husker">Select</option>
+                <option value="starbuck">Starbuck</option>
+                <option value="hotdog">Hot Dog</option>
+                <option value="apollo">Apollo</option>
+              </select>
+            </div>
+            <div class="small-6 columns">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Resources:</label>
+            </div>
+            <div class="small-4 columns">
+              <select>
+                <option value="husker">Select type</option>
+                <option value="starbuck">Starbuck</option>
+                <option value="hotdog">Hot Dog</option>
+                <option value="apollo">Apollo</option>
+              </select>
+              <small class="postscript"><a href="#">Create resource type</a></small>
+            </div>
+            <div class="small-1 columns">
+              <input type="text" id="right-label" placeholder="Qty">
+            </div>
+            <div class="small-5 columns">
+              <textarea type="text" id="right-label" placeholder="Comments"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Phone:</label>
+            </div>
+            <div class="small-10 columns">
+              <input type="text" id="right-label" placeholder="+1 800-555-1212">
+            </div>
+          </div>
+          
+          <div class="row collapse">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Website:</label>
+            </div>
+            <div class="small-1 columns">
+              <span class="prefix">http://</span>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" id="right-label" placeholder="URL">
+            </div>
+          </div>
+          
+          <div class="row collapse">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Twitter:</label>
+            </div>
+            <div class="small-1 columns">
+              <span class="prefix">@</span>
+            </div>
+            <div class="small-4 columns">
+              <input type="text" id="right-label" placeholder="username">
+            </div>
+            <div class="small-5 columns">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Location(s):</label>
+            </div>
+            <div class="small-4 columns">
+              <input type="text" id="right-label" placeholder="Street address">
+              <small class="postscript"><a href="#">Add another</a></small>
+            </div>
+            <div class="small-2 columns">
+              <input type="text" id="right-label" placeholder="Zip">
+            </div>
+            <div class="small-4 columns">
+              <a class="button tiny">Find on map</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Comments:</label>
+            </div>
+            <div class="small-9 columns">
+              <textarea type="text" id="right-label" placeholder="Comments"></textarea>
+            </div>
+            <div class="small-1 columns">
+              <i class="fi-question-mark" data-tooltip aria-haspopup="true" class="has-tip" title="Please use this field to record any additional information, including a history of the record if it is updated"></i>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="small-2 columns">
+            </div>
+            <div class="small-10 columns">
+              <a href="details.html" class="button alert">Save</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  
+  
+  </div>
+
+  </div>
+
+  <div class="row sahana-help">
+    <div class="large-12 columns">
+      <h3 class="row-title">Need help? Sahana is here</h3>
+      <div class="row">
+        <div class="large-3 medium-6 columns">
+          <a href="#"><img src="img/help/thumb-tutorials.jpg" alt="Watch video tutorials" width="260" height="130"><figcaption>Watch video tutorials</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="#"><img src="img/help/thumb-manual.jpg" alt="Read the user manual" width="260" height="130"><figcaption>Read the user manual</figcaption></a>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <a href="mailto:help@sahanafoundation.org?subject=LA training request"><img src="img/help/thumb-training.jpg" alt="Schedule a WebEx training" width="260" height="130"><figcaption>Schedule a WebEx training</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <div class="help-links">
+            <a class="button" href="mailto:help@sahanafoundation.org?subject=LA resilience help" target="_blank"><i class="fi-mail"></i>help@sahanafoundation.org</a>
+            <a class="button" href="tel:+18005551212"><i class="fi-telephone"></i>+1 800 555 1212</a>
+            <figcaption>Contact us</figcaption>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+  
+  <footer class="row sahana-footer">
+    <p><img src="img/logos/sahana-sunflower.png" alt="Sahana Foundation" width="42" height="40"><a href="http://sahanafoundation.org/" target="_blank">Sahana</a> is proudly open source. <a href="https://github.com/flavour/eden" target="_blank">Check us out on Github!</a></p>
+  </footer>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

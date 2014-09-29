@@ -1,0 +1,50 @@
+
+// grid containers
+
+.row {
+  background: $beige;
+  padding: $space $space-34;
+}
+@media #{$medium-up} {
+  .row {padding: $space-32 $space;}
+}
+@media #{$large-up} {
+  .row {padding: $space-double 100px;}
+}
+
+header.row {
+  padding-bottom: 0;
+}
+
+.row .row {
+  padding: 0;
+  background: transparent;  
+}
+
+
+
+// tabs
+
+.tabs-content {
+  padding-top: 0;
+  margin-bottom: 0;
+  > .content {
+    padding: 0;
+    background: $white;
+  }
+}
+
+.maps-inner {
+  padding: $space;
+}
+
+// table
+
+.data-sort {
+  padding: $space-34 $space 0;
+}
+
+.data-filter {
+  border-top: 2px solid $wave;
+  padding: $space-half 0;
+}

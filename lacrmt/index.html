@@ -1,0 +1,204 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahana LA Community Resilience Mapping Tool</title>
+  
+  <!-- webfonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!-- icon fonts -->
+  <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css" />
+  
+  <!-- compiled stylesheet -->
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+
+<body class="home">
+
+
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a class="active" href="index.html">Sahana</a></h1>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+  
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li><a href="dashboard.html">Log in</a></li>
+        <li><a href="dashboard.html">Register</a></li>
+        <li class="has-dropdown">
+          <a href="#">Language</a>
+          <ul class="dropdown">
+            <li><a href="#">Spanish</a></li>
+            <li class="active"><a href="#">English</a></li>
+          </ul>
+        </li>
+      </ul>
+  
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="has-dropdown">
+          <a href="#">Find</a>
+          <ul class="dropdown">
+            <li><a href="data.html">People</a></li>
+            <li><a href="data.html">Organizations</a></li>
+            <li><a href="data.html">Activities</a></li>
+            <li><a href="data.html">Points</a></li>
+            <li><a href="data.html">Routes</a></li>
+            <li><a href="data.html">Areas</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Add</a>
+          <ul class="dropdown">
+            <li><a href="add.html">Person</a></li>
+            <li><a href="add.html">Organization</a></li>
+            <li><a href="add.html">Activity</a></li>
+            <li><a href="add.html">Point</a></li>
+            <li><a href="add.html">Route</a></li>
+            <li><a href="add.html">Area</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Share</a>
+          <ul class="dropdown">
+            <li><a href="maps.html#panel-all">Maps</a></li>
+            <li><a href="#">Stories</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="map.html">Map</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+
+
+  <div class="row home-intro">
+    <div class="large-7 columns">
+      <h1 class="intro-hed"><span class="highlight">Sahana strengthens</span><br><span class="highlight">disaster resilience</span></h1>
+      <h4 class="intro-dek"><span class="highlight">Visualize your risks and resources,</span><br><span class="highlight">infrastructure and activities</span></h4>
+      <a class="button large alert" href="map.html">Make a map</a>
+    </div>
+  </div>
+  
+  <div class="row home-levers">
+    <div class="large-12 columns">
+      <a class="button secondary small right" href="add.html">Share your story</a>
+      <h2 class="row-title">Build your community&rsquo;s resilience</h3>
+      <div class="row">
+        <div class="large-3 medium-6 columns">
+          <a href="/stories/post-title"><strong><span class="number">1</span>Education</strong><img src="img/home/resilience-education.jpg" alt="Disaster Resilience Education" width="260" height="150" /><figcaption>&ldquo;Our community billboard gets over 30 postings per week!&rdquo;</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="/stories/post-title"><strong><span class="number">2</span>Partnerships</strong><img src="img/home/resilience-partnerships.jpg" alt="Disaster Resilience Partnerships" width="260" height="150" /><figcaption>&ldquo;Our schools, clinics, ports, and shops have all gotten to know each other.&rdquo;</figcaption></a>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <a href="/stories/post-title"><strong><span class="number">3</span>Engagement</strong><img src="img/home/resilience-engagement.jpg" alt="Disaster Resilience Engagement" width="260" height="150" /><figcaption>&ldquo;We&rsquo;ve identified the people in our community who need special help.&rdquo;</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="/stories/post-title"><strong><span class="number">4</span>Self-sufficiency</strong><img src="img/home/resilience-self-sufficiency.jpg" alt="Disaster Resilience Self-sufficiency" width="260" height="150" /><figcaption>&ldquo;We&rsquo;re holding monthly first aid trainings and CERT workshops.&rdquo;</figcaption></a>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <div class="row home-actions">
+    <div class="medium-12 large-7 columns home-steps">
+      <h2 class="row-title"><img class="steps-check" src="img/home/steps-check.png" alt="steps-check" width="54" height="46">Get it done</h2>
+      <div class="diagram">
+        <progress class="bar" id="progress-bar" min="1" max="100" value="0"></progress>
+        <a class="first" href="map.html"><img src="img/home/step-risks.png" alt="See your risks" width="100" height="100" /><i class="dot"></i>See your risks</a>
+        <a class="second" href="data.html"><img src="img/home/step-community.png" alt="Know your community" width="100" height="100" /><i class="dot"></i>Know your community</a>
+        <a class="third" href="data.html"><img src="img/home/step-partners.png" alt="Find new partners" width="100" height="100" /><i class="dot"></i>Find new partners</a>
+        <a class="fourth" href="maps.html#panel-yours"><img src="img/home/step-maps.png" alt="Share your maps" width="100" height="100" /><i class="dot"></i>Share your maps</a>
+      </div>
+    </div>     
+
+    <div class="medium-12 large-4 large-offset-1 columns home-activities">
+      <h6>Latest Activities</h6>
+      <ul class="lined ellipsis">
+        <li><a href="#">Coalition Meeting <small class="location">Culver City, <time datetime="2014-10-27 19:00">Fri Oct 27</time></small></a></li>
+        <li><a href="#">Free Music Festival <small class="location">Huntington Park, <time datetime="2014-10-28 19:00">Sat Oct 28</time></small></a></li>
+        <li><a href="#">CERT Training &amp; Certification <small class="location">Watts, <time datetime="2014-10-29 19:00">Sun Oct 29</time></small></a></li>
+      </ul>        
+      <a class="button tiny" href="#">See all 154</a>
+      <a class="button tiny secondary" href="add.html">Add activity</a>
+    </div>
+  </div>
+
+
+  <div class="row sahana-help">
+    <div class="large-12 columns">
+      <h3 class="row-title">Need help? Sahana is here</h3>
+      <div class="row">
+        <div class="large-3 medium-6 columns">
+          <a href="#"><img src="img/help/thumb-tutorials.jpg" alt="Watch video tutorials" width="260" height="130"><figcaption>Watch video tutorials</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="#"><img src="img/help/thumb-manual.jpg" alt="Read the user manual" width="260" height="130"><figcaption>Read the user manual</figcaption></a>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <a href="mailto:help@sahanafoundation.org?subject=LA training request"><img src="img/help/thumb-training.jpg" alt="Schedule a WebEx training" width="260" height="130"><figcaption>Schedule a WebEx training</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <div class="help-links">
+            <a class="button" href="mailto:help@sahanafoundation.org?subject=LA resilience help" target="_blank"><i class="fi-mail"></i>help@sahanafoundation.org</a>
+            <a class="button" href="tel:+18005551212"><i class="fi-telephone"></i>+1 800 555 1212</a>
+            <figcaption>Contact us</figcaption>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <div class="row home-partners">
+    <div class="large-12 columns">
+      <h3 class="row-title">Visit our partners</h3>
+      <div class="row">
+        <div class="large-3 medium-6 columns">
+          <a href="http://laresilience.org/" target="_blank"><img src="img/logos/la-resilience.jpg" alt="LA Resilience" width="260" height="100"><figcaption>Learn more about resilience, coalitions, partners, and resources.</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="http://publichealth.lacounty.gov/" target="_blank"><img src="img/logos/public-health.jpg" alt="LA County Department of Public Health" width="260" height="100"><figcaption>Get health tips, prevent disease, and support overall well-being.</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="http://www.rand.org/" target="_blank"><img src="img/logos/rand.jpg" alt="Rand" width="260" height="100"><figcaption>Understand public policy through research and analysis.</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="http://hss.semel.ucla.edu/" target="_blank"><img src="img/logos/ucla.jpg" alt="UCLA" width="260" height="100"><figcaption>Improve community wellness and resilience, including mental health.</figcaption></a>
+        </div>        
+      </div>        
+      <div class="row">
+        <div class="large-3 medium-6 columns">
+          <a href="http://www.llu.edu/public-health/ophp/" target="_blank"><img src="img/logos/loma-linda.jpg" alt="Loma Linda University" width="260" height="100"><figcaption>Organize disaster preparedness planning and training sessions.</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="http://www.communitypartners.org/" target="_blank"><img src="img/logos/community-partners.jpg" alt="Community Partners" width="260" height="100"><figcaption>Accelerate your ideas with expert guidance and services.</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="http://www.enla.org/" target="_blank"><img src="img/logos/enla.jpg" alt="ENLA" width="260" height="100"><figcaption>Access assistance following emergencies and disasters.</figcaption></a>
+        </div>        
+        <div class="large-3 medium-6 columns">
+          <a href="http://www.usgs.gov/" target="_blank"><img src="img/logos/usgs.jpg" alt="USGS" width="260" height="100"><figcaption>Browse top science stories to understand the changing world.</figcaption></a>
+        </div>        
+      </div>
+    </div>
+  </div>
+  
+  <footer class="row sahana-footer">
+    <p><img src="img/logos/sahana-sunflower.png" alt="Sahana Foundation" width="42" height="40"><a href="http://sahanafoundation.org/" target="_blank">Sahana</a> is proudly open source. <a href="https://github.com/flavour/eden" target="_blank">Check us out on Github!</a></p>
+  </footer>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

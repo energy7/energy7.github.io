@@ -1,0 +1,20 @@
+// headers
+
+.top-bar {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.top-bar-section .right li > a {
+  font-size: 75%;
+  color: $navy;
+}
+.top-bar-section .right .has-dropdown > a:after {
+  border-color: rgba(55, 81, 139, 0.7) transparent transparent transparent; // faded navy
+}
+
+.top-bar-section .dropdown li {
+  height: 49px;
+  a {
+    line-height: 49px !important;
+  }
+}

@@ -1,0 +1,52 @@
+
+[class^=".fi-"] {
+  margin-right: 5px;
+}
+
+
+.button {
+  text-transform: uppercase;
+  letter-spacing: $tracking;
+  i {
+    font-size: 150%;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+  }
+}
+
+.button.tiny {
+  i {
+    margin-right: 6px;
+    top: 2px;
+  }
+}
+
+.button.has-icon {
+  padding: 6px 30px 6px 10px;
+  margin-bottom: 0;
+  img {
+    margin-right: 10px;
+  }
+}
+
+.button.secondary {
+  background: transparent;
+  color: $teal;
+  -webkit-box-shadow: inset 0px 0px 0px 2px rgb(86,176,179);
+  -moz-box-shadow: inset 0px 0px 0px 2px rgb(86,176,179);
+  box-shadow: inset 0px 0px 0px 2px rgb(86,176,179);
+  transition: all 0.25s ease;
+  &:hover {
+    background: transparent;
+    color: rgb(3, 131, 131);
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgb(3, 131, 131);
+    -moz-box-shadow: inset 0px 0px 0px 2px rgb(3, 131, 131);
+    box-shadow: inset 0px 0px 0px 2px rgb(3, 131, 131);
+  }
+}
+
+.button.large {
+  letter-spacing: $tracking-loose;
+}
