@@ -10,10 +10,4 @@ $(document).ready(function() {
     $('#filters').slideToggle();
   });
 
-  // load JS multiselect
-  $('.js-multiselect').on('click', function () {
-    $('#menu-multiselect').jstree('select_node', 'child_node_1');
-  });
-  
-
 });

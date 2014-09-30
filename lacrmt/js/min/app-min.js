@@ -1,1 +1,1 @@
-$(document).foundation(),$(document).ready(function(){$("#js-toggle-filters").click(function(){$("#filters").slideToggle()}),$(".js-multiselect").on("click",function(){$("#menu-multiselect").jstree("select_node","child_node_1")})});
+$(document).foundation(),$(document).ready(function(){$("#js-toggle-filters").click(function(){$("#filters").slideToggle()})});

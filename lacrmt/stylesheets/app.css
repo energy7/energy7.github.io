@@ -7326,6 +7326,31 @@ dl.horizontal dd:after {
   box-shadow: none;
 }
 
+/* line 63, ../scss/custom/_buttons.scss */
+.multiselect {
+  -webkit-appearance: none !important;
+  -webkit-border-radius: 0px;
+  background-color: #FAFAFA;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…J2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  border: 1px solid #CCCCCC;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: #444444;
+  line-height: normal;
+  border-radius: 0;
+  height: 2.3125rem;
+  width: 100%;
+  text-align: left;
+}
+/* line 79, ../scss/custom/_buttons.scss */
+.multiselect:hover {
+  background-color: #F6F6F6;
+  border-color: #AAAAAA;
+  color: #222222;
+}
+
 /* line 3, ../scss/custom/_progress.scss */
 .diagram {
   clear: both;
