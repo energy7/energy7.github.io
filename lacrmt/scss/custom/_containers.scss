@@ -40,6 +40,13 @@ header.row {
 
 // table
 
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: $space-34;
+}
+
+
 .data-sort {
   padding: $space-34 $space 0;
 }
@@ -53,9 +60,12 @@ header.row {
 
 // blog
 
+.blog {
+  padding-top: 0;
+}
+
 .blog article {
-  padding-bottom: $space-32;
-  padding-right: $space;
+  padding: $space-32 $space $space 0;
   img {
     width: 50%;
     height: auto;

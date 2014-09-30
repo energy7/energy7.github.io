@@ -5140,7 +5140,7 @@ h5 {
 
 /* line 274, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h6 {
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 /* line 276, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -5387,7 +5387,7 @@ blockquote p {
 
   /* line 459, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h6 {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 }
 /*
@@ -5730,8 +5730,8 @@ blockquote p {
 }
 /* line 105, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em;
+  font-family: "/only screen and (min-width: 911px)/";
+  width: 911px;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -5839,7 +5839,7 @@ meta.foundation-mq-topbar {
   color: #04A4A4;
   width: 75%;
   display: block;
-  padding: 0 27.33333px;
+  padding: 0 20px;
 }
 /* line 207, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar {
@@ -5855,7 +5855,7 @@ meta.foundation-mq-topbar {
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 0 27.33333px;
+  padding: 0 20px;
   height: 82px;
   line-height: 82px;
 }
@@ -5868,7 +5868,7 @@ meta.foundation-mq-topbar {
 .top-bar .toggle-topbar.menu-icon a {
   height: 34px;
   line-height: 33px;
-  padding: 0 52.33333px 0 27.33333px;
+  padding: 0 45px 0 20px;
   color: #FFFFFF;
   position: relative;
 }
@@ -5880,13 +5880,13 @@ meta.foundation-mq-topbar {
   height: 0;
   top: 50%;
   margin-top: -8px;
-  right: 27.33333px;
-  box-shadow: 0 0px 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+  right: 20px;
+  box-shadow: 0 0px 0 1px #04A4A4, 0 7px 0 1px #04A4A4, 0 14px 0 1px #04A4A4;
   width: 16px;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_global.scss */
 .top-bar .toggle-topbar.menu-icon a span:hover:after {
-  box-shadow: 0 0px 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+  box-shadow: 0 0px 0 1px #04A4A4, 0 7px 0 1px #04A4A4, 0 14px 0 1px #04A4A4;
 }
 /* line 258, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded {
@@ -5940,7 +5940,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   color: #04A4A4;
   padding: 12px 0 12px 0;
-  padding-left: 27.33333px;
+  padding-left: 20px;
   font-family: Lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.9375rem;
   font-weight: normal;
@@ -5949,8 +5949,8 @@ meta.foundation-mq-topbar {
 /* line 315, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
   font-size: 0.9375rem;
-  padding-right: 27.33333px;
-  padding-left: 27.33333px;
+  padding-right: 20px;
+  padding-left: 20px;
   background-color: #04A4A4;
   border-color: #038383;
   color: #FFFFFF;
@@ -6008,8 +6008,8 @@ meta.foundation-mq-topbar {
 /* line 326, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button {
   font-size: 0.9375rem;
-  padding-right: 27.33333px;
-  padding-left: 27.33333px;
+  padding-right: 20px;
+  padding-left: 20px;
   background-color: #04A4A4;
   border-color: #038383;
   color: #FFFFFF;
@@ -6082,7 +6082,7 @@ meta.foundation-mq-topbar {
 }
 /* line 359, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
-  padding: 27.33333px;
+  padding: 20px;
 }
 /* line 362, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown {
@@ -6097,7 +6097,7 @@ meta.foundation-mq-topbar {
   border: inset 5px;
   border-color: transparent transparent transparent rgba(86, 176, 179, 0.4);
   border-left-style: solid;
-  margin-right: 27.33333px;
+  margin-right: 20px;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -6144,7 +6144,7 @@ meta.foundation-mq-topbar {
 /* line 402, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 27.33333px;
+  padding: 8px 20px;
 }
 /* line 405, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
@@ -6154,7 +6154,7 @@ meta.foundation-mq-topbar {
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
   margin-bottom: 0;
   margin-top: 0;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
 }
 /* line 415, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
@@ -6167,7 +6167,7 @@ meta.foundation-mq-topbar {
 }
 /* line 422, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.has-form {
-  padding: 8px 27.33333px;
+  padding: 8px 20px;
 }
 /* line 423, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li .button, .top-bar-section .dropdown li button {
@@ -6175,7 +6175,7 @@ meta.foundation-mq-topbar {
 }
 /* line 426, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown label {
-  padding: 8px 27.33333px 2px;
+  padding: 8px 20px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
@@ -6188,7 +6188,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 911px) {
   /* line 442, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #FFFFFF;
@@ -6262,7 +6262,7 @@ meta.foundation-mq-topbar {
   }
   /* line 495, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
-    padding: 0 27.33333px;
+    padding: 0 20px;
     line-height: 82px;
     background: #FFFFFF;
   }
@@ -6273,7 +6273,7 @@ meta.foundation-mq-topbar {
   }
   /* line 508, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
-    padding: 0 27.33333px;
+    padding: 0 20px;
     line-height: 82px;
     color: #FFFFFF;
     background: #04A4A4;
@@ -6285,7 +6285,7 @@ meta.foundation-mq-topbar {
   }
   /* line 525, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a {
-    padding-right: 47.33333px !important;
+    padding-right: 40px !important;
   }
   /* line 527, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a:after {
@@ -6353,7 +6353,7 @@ meta.foundation-mq-topbar {
     color: #FFFFFF;
     line-height: 82px;
     white-space: nowrap;
-    padding: 12px 27.33333px;
+    padding: 12px 20px;
     background: #333333;
   }
   /* line 582, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7011,22 +7011,33 @@ header.row {
 }
 
 /* line 43, ../scss/custom/_containers.scss */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 18px;
+}
+
+/* line 50, ../scss/custom/_containers.scss */
 .data-sort {
   padding: 18px 24px 0;
 }
 
-/* line 47, ../scss/custom/_containers.scss */
+/* line 54, ../scss/custom/_containers.scss */
 .data-filter {
   border-top: 2px solid #56B0B3;
   padding: 12px 0;
 }
 
-/* line 56, ../scss/custom/_containers.scss */
-.blog article {
-  padding-bottom: 36px;
-  padding-right: 24px;
+/* line 63, ../scss/custom/_containers.scss */
+.blog {
+  padding-top: 0;
 }
-/* line 59, ../scss/custom/_containers.scss */
+
+/* line 67, ../scss/custom/_containers.scss */
+.blog article {
+  padding: 36px 24px 24px 0;
+}
+/* line 69, ../scss/custom/_containers.scss */
 .blog article img {
   width: 50%;
   height: auto;
@@ -7043,21 +7054,36 @@ header.row {
 /* line 7, ../scss/custom/_header.scss */
 .top-bar-section .right li > a {
   font-size: 75%;
-  color: #37518B;
 }
 
-/* line 11, ../scss/custom/_header.scss */
+@media only screen and (min-width: 911px) {
+  /* line 12, ../scss/custom/_header.scss */
+  .top-bar-section .right li > a {
+    color: #37518B;
+  }
+}
+/* line 18, ../scss/custom/_header.scss */
 .top-bar-section .right .has-dropdown > a:after {
   border-color: rgba(55, 81, 139, 0.7) transparent transparent transparent;
 }
 
-/* line 15, ../scss/custom/_header.scss */
+/* line 22, ../scss/custom/_header.scss */
 .top-bar-section .dropdown li {
   height: 49px;
 }
-/* line 17, ../scss/custom/_header.scss */
+/* line 24, ../scss/custom/_header.scss */
 .top-bar-section .dropdown li a {
   line-height: 49px !important;
+  padding: 0 20px;
+}
+
+/* line 30, ../scss/custom/_header.scss */
+.top-bar-section .back a {
+  color: #56B0B3 !important;
+}
+/* line 32, ../scss/custom/_header.scss */
+.top-bar-section .back a:before {
+  content: '← ';
 }
 
 /* line 7, ../scss/custom/_footer.scss */
@@ -7298,8 +7324,9 @@ dl.horizontal dd:after {
   clear: both;
   position: relative;
   height: 175px;
+  text-align: center;
 }
-/* line 7, ../scss/custom/_progress.scss */
+/* line 8, ../scss/custom/_progress.scss */
 .diagram .bar {
   appearance: none;
   border: 0;
@@ -7311,61 +7338,59 @@ dl.horizontal dd:after {
   color: rgba(255, 255, 255, 0.5);
   height: 2px;
 }
-/* line 18, ../scss/custom/_progress.scss */
+/* line 19, ../scss/custom/_progress.scss */
 .diagram .bar::-webkit-progress-value {
   /* Changes line color */
   background: #FFFFFF;
   background: rgba(255, 255, 255, 0.5);
   transition: all 0.4s ease-in-out;
 }
-/* line 23, ../scss/custom/_progress.scss */
+/* line 24, ../scss/custom/_progress.scss */
 .diagram .bar::-webkit-progress-bar {
   /* Changes background color */
   background: #FFFFFF;
   background: rgba(255, 255, 255, 0.5);
 }
-/* line 27, ../scss/custom/_progress.scss */
+/* line 28, ../scss/custom/_progress.scss */
 .diagram a {
   display: inline;
   position: absolute;
   left: 0%;
   top: 0;
   width: 25%;
-  padding: 0 20px;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  text-align: center;
-  font-size: 18px;
   line-height: 1.3;
   color: #A9B8D9;
 }
-/* line 41, ../scss/custom/_progress.scss */
+/* line 39, ../scss/custom/_progress.scss */
 .diagram .second {
   left: 25%;
 }
-/* line 44, ../scss/custom/_progress.scss */
+/* line 42, ../scss/custom/_progress.scss */
 .diagram .third {
   left: 50%;
 }
-/* line 47, ../scss/custom/_progress.scss */
+/* line 45, ../scss/custom/_progress.scss */
 .diagram .fourth {
   left: 75%;
 }
-/* line 50, ../scss/custom/_progress.scss */
+/* line 48, ../scss/custom/_progress.scss */
 .diagram .border-change {
   border-color: #fff;
   transition: all 0.4s ease-in-out;
 }
-/* line 54, ../scss/custom/_progress.scss */
+/* line 52, ../scss/custom/_progress.scss */
 .diagram img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  max-width: 100px;
+  height: auto;
   margin: 0 auto;
   opacity: .5;
   transition: all .3s ease;
 }
-/* line 62, ../scss/custom/_progress.scss */
+/* line 61, ../scss/custom/_progress.scss */
 .diagram .dot {
   height: 12px;
   width: 12px;
@@ -7378,15 +7403,15 @@ dl.horizontal dd:after {
   margin: 5px auto;
   transition: all .3s ease;
 }
-/* line 74, ../scss/custom/_progress.scss */
+/* line 73, ../scss/custom/_progress.scss */
 .diagram a:hover {
   color: #FFFFFF;
 }
-/* line 76, ../scss/custom/_progress.scss */
+/* line 75, ../scss/custom/_progress.scss */
 .diagram a:hover img {
   opacity: 1;
 }
-/* line 79, ../scss/custom/_progress.scss */
+/* line 78, ../scss/custom/_progress.scss */
 .diagram a:hover .dot {
   border-color: #FFFFFF;
   background: #FFFFFF;
@@ -7410,7 +7435,7 @@ th.sorting {
 
 /* line 9, ../scss/custom/_home.scss */
 .intro-hed {
-  line-height: 1.35;
+  line-height: 1.4;
   margin-bottom: 8px;
 }
 /* line 12, ../scss/custom/_home.scss */
@@ -7421,7 +7446,7 @@ th.sorting {
 
 /* line 18, ../scss/custom/_home.scss */
 .intro-dek {
-  line-height: 1.5;
+  line-height: 1.7;
   margin-left: 12px;
   margin-bottom: 3px;
 }
@@ -7467,39 +7492,43 @@ th.sorting {
 .home-levers a {
   color: #444;
 }
+/* line 60, ../scss/custom/_home.scss */
+.home-levers figcaption {
+  padding-bottom: 24px;
+}
 
-/* line 65, ../scss/custom/_home.scss */
+/* line 68, ../scss/custom/_home.scss */
 .home-actions {
   background: #37518B;
   padding-bottom: 0 !important;
 }
-/* line 68, ../scss/custom/_home.scss */
+/* line 71, ../scss/custom/_home.scss */
 .home-actions .row-title {
   color: #FFFFFF;
 }
 
-/* line 72, ../scss/custom/_home.scss */
+/* line 75, ../scss/custom/_home.scss */
 .steps-check {
   margin-left: -64px;
   margin-right: 10px;
 }
 
-/* line 77, ../scss/custom/_home.scss */
+/* line 80, ../scss/custom/_home.scss */
 .home-activities {
   background: #FFFFFF;
   padding: 20px 20px 0;
   border-bottom: 1px solid #FAFAFA;
 }
 
-/* line 87, ../scss/custom/_home.scss */
+/* line 90, ../scss/custom/_home.scss */
 .home-partners {
   background: #F9F6F1;
 }
-/* line 89, ../scss/custom/_home.scss */
+/* line 92, ../scss/custom/_home.scss */
 .home-partners .row {
   margin-top: 24px;
 }
-/* line 92, ../scss/custom/_home.scss */
+/* line 95, ../scss/custom/_home.scss */
 .home-partners .row-title {
   margin-bottom: 0;
 }
