@@ -7021,6 +7021,19 @@ header.row {
   padding: 12px 0;
 }
 
+/* line 56, ../scss/custom/_containers.scss */
+.blog article {
+  padding-bottom: 36px;
+  padding-right: 24px;
+}
+/* line 59, ../scss/custom/_containers.scss */
+.blog article img {
+  width: 50%;
+  height: auto;
+  float: right;
+  margin: 0 0 12px 24px;
+}
+
 /* line 3, ../scss/custom/_header.scss */
 .top-bar {
   text-transform: uppercase;

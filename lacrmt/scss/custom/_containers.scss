@@ -48,3 +48,18 @@ header.row {
   border-top: 2px solid $wave;
   padding: $space-half 0;
 }
+
+
+
+// blog
+
+.blog article {
+  padding-bottom: $space-32;
+  padding-right: $space;
+  img {
+    width: 50%;
+    height: auto;
+    float: right;
+    margin: 0 0 $space-half $space;
+  }
+}
