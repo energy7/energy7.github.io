@@ -149,15 +149,7 @@
               <label for="right-label" class="right inline">Services:</label>
             </div>
             <div class="small-4 columns">
-              <select>
-                <option value="husker">Select</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-            <div class="small-6 columns">
-              <button type="button" class="multiselect" id="button-services">Select</button>
+              <a class="multiselect" id="button-services" href="#">Select</a>
               <div id="menu-services">
                 <ul>
                   <li>Animal services</li>
@@ -171,9 +163,10 @@
                   </li>
                   <li>Crisis Counseling</li>
                 </ul>
-                </ul>
               </div>
             </div>
+            <div class="small-6 columns">
+             </div>
           </div>
 
           <div class="row">
@@ -316,7 +309,7 @@
 
 
   <!-- JS Tree -->
-  <script src="dist/jstree.min.js"></script>
+  <script src="js/jstree/jstree.min.js"></script>
   <script>
     $(function () {
       // create an instance when the DOM is ready

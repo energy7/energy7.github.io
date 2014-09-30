@@ -61,24 +61,8 @@
 // multiselect
 
 .multiselect {
-  -webkit-appearance: none !important;
-  -webkit-border-radius: 0px;
-  background-color: $ghost;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…J2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
-  background-position: 100% center;
-  background-repeat: no-repeat;
-  border: 1px solid $iron;
-  padding: 0.5rem;
-  font-size: 0.875rem;
-  color: $text-color;
-  line-height: normal;
-  border-radius: 0;
-  height: 2.3125rem;
-  width: 100%;
+  @include form-select;
+  height: ($input-font-size + ($form-spacing * 1.5) - rem-calc(1));
+  display: block;
   text-align: left;
-  &:hover {
-    background-color: $vapor;
-    border-color: $base;
-    color: $headline-color;
-  }
 }

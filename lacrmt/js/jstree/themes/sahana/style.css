@@ -1,4 +1,4 @@
-/* jsTree default theme */
+/* jsTree Sahana theme */
 .jstree-node,
 .jstree-children,
 .jstree-container-ul {
@@ -8,6 +8,15 @@
   list-style-type: none;
   list-style-image: none;
 }
+.jstree-container-ul {
+  background: rgba(0,0,0,.035);
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #DDD;
+  border-top: 0;
+}
+
+
 .jstree-node {
   white-space: nowrap;
 }
@@ -304,13 +313,9 @@
 }
 .jstree-default .jstree-hovered {
   background: #e7f4f9;
-  border-radius: 2px;
-  box-shadow: inset 0 0 1px #ccc;
 }
 .jstree-default .jstree-clicked {
-  background: #beebff;
-  border-radius: 2px;
-  box-shadow: inset 0 0 1px #999;
+  background: #56B0B3;
 }
 .jstree-default .jstree-no-icons .jstree-anchor > .jstree-themeicon {
   display: none;
