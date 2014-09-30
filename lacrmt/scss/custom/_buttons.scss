@@ -50,3 +50,9 @@
 .button.large {
   letter-spacing: $tracking-loose;
 }
+
+.button.secondary.cancel {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}

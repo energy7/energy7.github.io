@@ -7319,6 +7319,13 @@ dl.horizontal dd:after {
   letter-spacing: 3px;
 }
 
+/* line 54, ../scss/custom/_buttons.scss */
+.button.secondary.cancel {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 /* line 3, ../scss/custom/_progress.scss */
 .diagram {
   clear: both;
