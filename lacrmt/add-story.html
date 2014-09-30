@@ -60,7 +60,7 @@
           <a href="#">Add</a>
           <ul class="dropdown">
             <li><a href="add.html">Person</a></li>
-            <li><a class="active" href="add.html">Organization</a></li>
+            <li><a href="add.html">Organization</a></li>
             <li><a href="add.html">Activity</a></li>
             <li><a href="add.html">Point</a></li>
             <li><a href="add.html">Route</a></li>
@@ -84,7 +84,7 @@
 
   <div class="row add-organization">
     <label class="req-key right">* Required Fields</label>
-    <h1 class="row-title">Add Organization</h3>
+    <h1 class="row-title">Share Your Story</h3>
     
     <form>
       <div class="row">
@@ -92,13 +92,26 @@
         
           <div class="row">
             <div class="small-2 columns">
-              <label for="right-label" class="right inline">Name:<span class="req">*</span></label>
+              <label for="right-label" class="right inline">Your Name:<span class="req">*</span></label>
             </div>
-            <div class="small-10 columns">
+            <div class="small-6 columns">
               <input type="text" id="right-label" placeholder="Text">
+            </div>
+            <div class="small-4 columns">
             </div>
           </div>
           
+          <div class="row collapse">
+            <div class="small-2 columns">
+              <label for="right-label" class="right inline">Email:</label>
+            </div>
+            <div class="small-6 columns">
+              <input type="email" id="right-label" placeholder="Email address">
+            </div>
+            <div class="small-4 columns">
+            </div>
+          </div>
+
           <div class="row">
             <div class="small-2 columns">
               <label for="right-label" class="right inline">Coalition:</label>
@@ -106,137 +119,43 @@
             <div class="small-4 columns">
               <select>
                 <option value="husker">Select</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-              <small class="postscript"><a href="#">Add another</a></small>
-            </div>
-            <div class="small-4 columns">
-              <select>
-                <option value="husker">Status</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
+                <option value="starbuck">Acton & Agua Dolce</option>
+                <option value="hotdog">La Crescenta</option>
+                <option value="apollo">Watts</option>
               </select>
             </div>
-            <div class="small-2 columns">
+            <div class="small-6 columns">
             </div>
           </div>
           
           <div class="row">
             <div class="small-2 columns">
-              <label for="right-label" class="right inline">Sectors:</label>
-            </div>
-            <div class="small-4 columns">
-              <select>
-                <option value="husker">Select</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-            <div class="small-6 columns">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="small-2 columns">
-              <label for="right-label" class="right inline">Services:</label>
-            </div>
-            <div class="small-4 columns">
-              <select>
-                <option value="husker">Select</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-            <div class="small-6 columns">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="small-2 columns">
-              <label for="right-label" class="right inline">Resources:</label>
-            </div>
-            <div class="small-4 columns">
-              <select>
-                <option value="husker">Select type</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-              <small class="postscript"><a href="#">Create resource type</a></small>
-            </div>
-            <div class="small-1 columns">
-              <input type="text" id="right-label" placeholder="Qty">
-            </div>
-            <div class="small-5 columns">
-              <textarea type="text" id="right-label" placeholder="Comments"></textarea>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="small-2 columns">
-              <label for="right-label" class="right inline">Phone:</label>
+              <label for="right-label" class="right inline">Topics:</label>
             </div>
             <div class="small-10 columns">
-              <input type="text" id="right-label" placeholder="+1 800-555-1212">
+              <input id="checkbox1" type="checkbox"><label for="checkbox1">Education</label>
+              <input id="checkbox2" type="checkbox"><label for="checkbox2">Partnerships</label>
+              <input id="checkbox3" type="checkbox"><label for="checkbox3">Engagement</label>
+              <input id="checkbox4" type="checkbox"><label for="checkbox4">Self-sufficiency</label>
             </div>
           </div>
-          
-          <div class="row collapse">
-            <div class="small-2 columns">
-              <label for="right-label" class="right inline">Website:</label>
-            </div>
-            <div class="small-1 columns">
-              <span class="prefix">http://</span>
-            </div>
-            <div class="small-9 columns">
-              <input type="text" id="right-label" placeholder="URL">
-            </div>
-          </div>
-          
-          <div class="row collapse">
-            <div class="small-2 columns">
-              <label for="right-label" class="right inline">Twitter:</label>
-            </div>
-            <div class="small-1 columns">
-              <span class="prefix">@</span>
-            </div>
-            <div class="small-4 columns">
-              <input type="text" id="right-label" placeholder="username">
-            </div>
-            <div class="small-5 columns">
-            </div>
-          </div>
+
           
           <div class="row">
             <div class="small-2 columns">
-              <label for="right-label" class="right inline">Location(s):</label>
+              <label for="right-label" class="right inline">Challenges:</label>
             </div>
-            <div class="small-4 columns">
-              <input type="text" id="right-label" placeholder="Street address">
-              <small class="postscript"><a href="#">Add another</a></small>
-            </div>
-            <div class="small-2 columns">
-              <input type="text" id="right-label" placeholder="Zip">
-            </div>
-            <div class="small-4 columns">
-              <a class="button tiny">Find on map</a>
+            <div class="small-10 columns">
+              <textarea type="text" id="right-label" placeholder="In building your community's resilience, what particular challenges did you face? (Up to 200 words)" rows="12"></textarea>
             </div>
           </div>
 
           <div class="row">
             <div class="small-2 columns">
-              <label for="right-label" class="right inline">Comments:</label>
+              <label for="right-label" class="right inline">Lessons:</label>
             </div>
-            <div class="small-9 columns">
-              <textarea type="text" id="right-label" placeholder="Comments"></textarea>
-            </div>
-            <div class="small-1 columns">
-              <i class="fi-question-mark" data-tooltip aria-haspopup="true" class="has-tip" title="Please use this field to record any additional information, including a history of the record if it is updated"></i>
+            <div class="small-10 columns">
+              <textarea type="text" id="right-label" placeholder="What strategies, tactics, or lessons did you learn? (Up to 200 words)" rows="12"></textarea>
             </div>
           </div>
 
@@ -244,7 +163,7 @@
             <div class="small-2 columns">
             </div>
             <div class="small-10 columns">
-              <a href="details.html" class="button alert">Save</a>
+              <a href="stories.html" class="button alert">Submit</a>
             </div>
           </div>
 
