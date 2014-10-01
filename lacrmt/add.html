@@ -89,7 +89,6 @@
   <div class="row add-organization">
     <label class="req-key right">* Required Fields</label>
     <h1 class="row-title">Add Organization</h3>
-    
     <form>
       <div class="row">
         <div class="small-12">
@@ -149,8 +148,8 @@
               <label for="right-label" class="right inline">Services:</label>
             </div>
             <div class="small-4 columns">
-              <a class="multiselect" id="button-services" href="#">Select</a>
-              <div id="menu-services">
+              <a class="multiselect js-menu-toggle" href="#">Select</a>
+              <div id="menu-services" style="display:none;">
                 <ul>
                   <li>Animal services</li>
                   <li>Clothing supplies</li>
@@ -319,8 +318,8 @@
         console.log(data.selected);
       });
       // interact with the tree 
-      $('#button-services').on('click', function () {
-        $('#menu-services').jstree('select_node', 'child_node_1');
+      $('.js-menu-toggle').on('click', function () {
+        $(this).next('div').slideToggle();
       });
     });
   </script>

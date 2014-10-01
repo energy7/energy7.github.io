@@ -9,10 +9,10 @@
   list-style-image: none;
 }
 .jstree-container-ul {
-  background: rgba(0,0,0,.035);
+  background: #FFFFFF;
   padding-bottom: 6px;
   margin-bottom: 12px;
-  border: 1px solid #DDD;
+  border: 1px solid #E8E3DC;
   border-top: 0;
 }
 
@@ -312,10 +312,12 @@
   transition: background-color 0.15s, box-shadow 0.15s;
 }
 .jstree-default .jstree-hovered {
-  background: #e7f4f9;
+  background: transparent;
+  border: 1px solid #04A4A4;
 }
 .jstree-default .jstree-clicked {
-  background: #56B0B3;
+  background: transparent;
+  border: 1px solid #B2C29A;
 }
 .jstree-default .jstree-no-icons .jstree-anchor > .jstree-themeicon {
   display: none;
@@ -406,13 +408,16 @@
   /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@color1', endColorstr='@color2',GradientType=0 );*/
 }
 .jstree-default .jstree-node {
-  min-height: 24px;
-  line-height: 24px;
+  min-height: 27px;
+  line-height: 27px;
   margin-left: 24px;
   min-width: 24px;
 }
+.jstree-container-ul > .jstree-node:first-child { /* add padding to top of menu */
+  padding-top: 6px;
+}
 .jstree-default .jstree-anchor {
-  line-height: 24px;
+  line-height: 22px;
   height: 24px;
 }
 .jstree-default .jstree-icon {
