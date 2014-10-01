@@ -7359,6 +7359,14 @@ dl.horizontal dd:after {
   cursor: default;
 }
 
+/* line 70, ../scss/custom/_buttons.scss */
+.multimenu {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  padding-right: 1em;
+}
+
 /* line 3, ../scss/custom/_progress.scss */
 .diagram {
   clear: both;
