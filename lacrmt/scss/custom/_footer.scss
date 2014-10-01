@@ -36,6 +36,7 @@
 
 // footers
 
+
 footer.row {
   padding-top: $space;
   padding-bottom: $space;
@@ -56,4 +57,10 @@ footer.row {
       color: $mint;
     }
   }
+}
+
+.credits {
+  font-size: .75em;
+  margin-bottom: 0;
+  letter-spacing: $tracking-tight;
 }
