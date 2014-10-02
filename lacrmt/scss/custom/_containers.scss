@@ -25,6 +25,11 @@ header.row {
 
 // tabs
 
+.tabs-header {
+  padding-top: $space;
+  padding-bottom: 0;
+}
+
 .tabs-content {
   padding-top: 0;
   margin-bottom: 0;
@@ -38,7 +43,15 @@ header.row {
   padding: $space;
 }
 
+
+
 // table
+
+
+@media #{$large-up} {
+  .data-header .button {float: right;}
+}
+
 
 .table-container {
   width: 100%;
