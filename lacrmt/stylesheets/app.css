@@ -7291,12 +7291,13 @@ dl.horizontal dd:after {
   margin-right: 5px;
 }
 
-/* line 7, ../scss/custom/_buttons.scss */
+/* line 9, ../scss/custom/_buttons.scss */
 .button {
   text-transform: uppercase;
   letter-spacing: 2px;
+  transition: all 0.25s ease;
 }
-/* line 10, ../scss/custom/_buttons.scss */
+/* line 13, ../scss/custom/_buttons.scss */
 .button i {
   font-size: 150%;
   margin-right: 10px;
@@ -7304,58 +7305,58 @@ dl.horizontal dd:after {
   top: 4px;
   display: inline-block;
 }
-/* line 17, ../scss/custom/_buttons.scss */
-.button:focus {
-  background-color: #037272 !important;
+/* line 20, ../scss/custom/_buttons.scss */
+.button:hover, .button:focus {
+  background-color: #037272;
+  color: #FFFFFF;
 }
 
-/* line 23, ../scss/custom/_buttons.scss */
+/* line 27, ../scss/custom/_buttons.scss */
+.button.large {
+  letter-spacing: 3px;
+}
+
+/* line 32, ../scss/custom/_buttons.scss */
 .button.tiny i {
   margin-right: 6px;
   top: 2px;
 }
 
-/* line 29, ../scss/custom/_buttons.scss */
+/* line 38, ../scss/custom/_buttons.scss */
 .button.has-icon {
   padding: 6px 30px 6px 10px;
   margin-bottom: 0;
 }
-/* line 32, ../scss/custom/_buttons.scss */
+/* line 41, ../scss/custom/_buttons.scss */
 .button.has-icon img {
   margin-right: 10px;
 }
 
-/* line 37, ../scss/custom/_buttons.scss */
+/* line 46, ../scss/custom/_buttons.scss */
 .button.secondary {
   background: transparent;
   color: #04A4A4;
-  -webkit-box-shadow: inset 0px 0px 0px 2px #56b0b3;
-  -moz-box-shadow: inset 0px 0px 0px 2px #56b0b3;
-  box-shadow: inset 0px 0px 0px 2px #56b0b3;
-  transition: all 0.25s ease;
+  -webkit-box-shadow: inset 0px 0px 0px 2px #56B0B3;
+  -moz-box-shadow: inset 0px 0px 0px 2px #56B0B3;
+  box-shadow: inset 0px 0px 0px 2px #56B0B3;
 }
-/* line 44, ../scss/custom/_buttons.scss */
-.button.secondary:hover {
-  background: transparent;
-  color: #038383;
-  -webkit-box-shadow: inset 0px 0px 0px 2px #038383;
-  -moz-box-shadow: inset 0px 0px 0px 2px #038383;
-  box-shadow: inset 0px 0px 0px 2px #038383;
-}
-
-/* line 53, ../scss/custom/_buttons.scss */
-.button.large {
-  letter-spacing: 3px;
+/* line 52, ../scss/custom/_buttons.scss */
+.button.secondary:hover, .button.secondary:focus {
+  background-color: #037272;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset 0px 0px 0px 2px #037272;
+  -moz-box-shadow: inset 0px 0px 0px 2px #037272;
+  box-shadow: inset 0px 0px 0px 2px #037272;
 }
 
-/* line 57, ../scss/custom/_buttons.scss */
+/* line 62, ../scss/custom/_buttons.scss */
 .button.secondary.cancel {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 66, ../scss/custom/_buttons.scss */
+/* line 71, ../scss/custom/_buttons.scss */
 .multiselect {
   -webkit-appearance: none !important;
   -webkit-border-radius: 0px;
@@ -7388,7 +7389,7 @@ dl.horizontal dd:after {
   cursor: default;
 }
 
-/* line 73, ../scss/custom/_buttons.scss */
+/* line 78, ../scss/custom/_buttons.scss */
 .multimenu {
   position: absolute;
   z-index: 5;
